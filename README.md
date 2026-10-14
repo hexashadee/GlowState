@@ -46,8 +46,10 @@ the arduino reads that command and changes the leds to match your status
 
 the arduino hardware and led controls are working
 
-automatic microsoft teams syncing is still being tested and requires an approved microsoft entra application with Presence.Read permissions
+## 3d printed enclosure
 
-## license
+the enclosure is based on the [Radig Status Light](https://makerworld.com/en/models/2955341-radig-status-light) from MakerWorld
 
-MIT license
+i only used the 3d printed design. all firmware, led control, and microsoft teams integration were developed separately for GlowState
+
+credit for the physical enclosure design goes to the original creator
