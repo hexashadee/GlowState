@@ -14,6 +14,10 @@ LED communication and color testing are working.
 
 Automatic MS Teams presence sync is under dev.
 
-## Firmware
+## firmware
 
-Will be added after the working version has been finalized.
+the arduino firmware is available in [`GlowState/GlowState.ino`](GlowState/GlowState.ino)
+
+it controls the neopixel leds using serial commands sent over usb
+
+automatic teams presence syncing is handled separately by the windows powershell script
