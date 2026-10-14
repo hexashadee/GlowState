@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# variables and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Arduino
+build/
+*.hex
+*.elf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editors
+.vscode/
+.idea/
+
+# Logs
+*.log
