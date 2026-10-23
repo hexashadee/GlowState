@@ -4,6 +4,16 @@ a diy microsoft teams presence light built using an arduino nano, addressable rg
 
 the idea is pretty simple. your light changes color based on your microsoft teams availability so people can tell when you're busy when walking by
 
+
+
+Setting	                          Value
+Application type	                Single-tenant public client
+API	                              Microsoft Graph
+Permission	                      Delegated Presence.Read
+Authentication	                  Device code flow
+Client secret	                    Not required
+Admin consent	                     As required by company policy
+
 ## features
 
 - automatic teams presence syncing via microsoft graph (in development)
@@ -46,7 +56,19 @@ the arduino reads that command and changes the leds to match your status
 
 the arduino hardware and led controls are working
 
-## 3d printed enclosure
+## steps
+plug the nano into USB.
+open device manager.
+expand ports (COM & LPT).
+identify the COM port - com3
+download powershell script
+edit - enter IDs
+open powershell, navigate to directory where the script is
+example:       cd C:\GlowState
+.\TeamsLight-Auto.ps1
+
+
+- the first run will prompt MS credentials. script checks every 15 seconds and sends a command when the status changes. PS must remain running, it doesn't install a service or automatically launch at windows log-in
 
 the enclosure is based on the [Radig Status Light](https://makerworld.com/en/models/2955341-radig-status-light) from MakerWorld
 
