@@ -2,7 +2,7 @@
 
 a diy microsoft teams presence light built using an arduino nano, addressable rgb leds, and a 3d printed enclosure
 
-the idea is pretty simple. your light changes color based on your microsoft teams availability so people can tell when you're busy when walking by
+the idea is simple. your light changes color based on your microsoft teams availability so people can tell when you're busy when walking by
 
 Application type:     Single-tenant public client <br>
 API: Microsoft Graph <br>
