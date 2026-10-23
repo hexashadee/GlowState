@@ -4,12 +4,12 @@ a diy microsoft teams presence light built using an arduino nano, addressable rg
 
 the idea is pretty simple. your light changes color based on your microsoft teams availability so people can tell when you're busy when walking by
 
-Application type: Single-tenant public client
-API: Microsoft Graph
-Permission: Delegated Presence.Read
-Authentication: Device code flow
-Client secret:  Not required
-Admin consent: As required by company policy
+Application type:     Single-tenant public client <br>
+API: Microsoft Graph <br>
+Permission: Delegated Presence.Read <br>
+Authentication: Device code flow <br>
+Client secret:  Not required<br>
+Admin consent: As required by company policy<br>
 
 ## features
 
